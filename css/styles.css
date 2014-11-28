@@ -1,0 +1,111 @@
+@media (max-width: 767px){
+    #dayInfo{
+        width:356px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+@font-face{
+    font-family: 'Xolonium-Regular';
+    src: url('../fonts/Xolonium-Regular.otf');
+}
+
+#description{
+    font-family: 'Xolonium-Regular', 'Georgia', serif;
+}
+
+#description{
+    text-align:center;
+    width:70%;
+    font-size:1.2em;
+}
+
+body{
+    background-image:url('../images/stars-cepheus.jpg');
+}
+
+#month{
+    color:white;
+}
+
+#dayInfo{
+    z-index:9999;
+}
+
+.topButtons{
+    margin-bottom:20px;
+    z-index:9998;
+}
+
+.thumbnail{
+    height:100%;
+}
+
+.calDay{
+    padding-left:3px;
+    padding-right:3px;
+    margin-bottom:10px;
+    height:100px;
+}
+
+#prevMonth{
+    float:left;
+}
+
+#nextMonth{
+    float:right;
+}
+
+#dayInfo{
+    display:none;
+}
+
+#month{
+    text-align:center;
+}
+
+.day{
+    text-align:center;
+    color:white;
+}
+
+.credits{
+    text-align:center;
+    clear:both;
+    color:silver;
+    font-size:0.8em;
+    font-style:italic;
+}
+
+.navbar-brand{
+    font-size:1.5em;
+    font-family: 'Xolonium-Regular', 'Georgia', serif;
+}
+
