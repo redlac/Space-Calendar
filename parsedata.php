@@ -134,5 +134,4 @@ $finalEventData = setIcons($keywords, $eventData);
 //Encode data in utf-8 for json_encode.
 utf8_encode_deep($finalEventData);
 echo json_encode($finalEventData);
-//print_r($finalEventData);
 ?>
