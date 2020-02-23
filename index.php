@@ -82,7 +82,7 @@
     </div>
     <div id="dayInfo" class="container alert alert-info" role="alert">
     </div>
-    <div id="month"><?php echo date(F)." 2014";?></div>
+    <div id="month"><?php echo date('F')." 2014";?></div>
     <div id="calendar" class="container">
         <div class="row seven-cols">
             <div class="hidden-xs hidden-sm col-md-1">
